@@ -1,0 +1,24 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CopyPipeline_zp0",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/adftutorial/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/65b3c365-2782-4e6b-a809-eed439c32a45/resourceGroups/ADFSadik/providers/Microsoft.Storage/storageAccounts/saadfsadik",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
