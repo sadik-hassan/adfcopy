@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfsadik1"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/65b3c365-2782-4e6b-a809-eed439c32a45/resourceGroups/ADFSadik/providers/Microsoft.Storage/storageAccounts/saadfsadik"
+		}
+	}
+}
